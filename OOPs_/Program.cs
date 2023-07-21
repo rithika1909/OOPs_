@@ -7,13 +7,15 @@ namespace OOPs_
     {
         static string DataInventoryManagement_filePath = @"D:\OOPs_\OOPs_\DataInventoryManagement\InventoryData.json";
         static string InventoryManagement_filePath = @"D:\OOPs_\OOPs_\InventoryManagement\InventoryManagementData.json";
+        static string StockManagement_filePath = @"D:\OOPs_\OOPs_\StockManagement\CompanyStock.json";
         public static void Main(string[] args)
         {
 
             bool flag = true;
             while (flag)
-            {
-                Console.WriteLine("Enter the option:\n1.Data Inventory Management\n 2.Inventory ManagementExit\n 3.Exit");
+            { 
+            
+                Console.WriteLine("Enter the option:\n1.Data Inventory Management\n 2.Inventory ManagementExit\n 3.Stock Management\n 4.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
